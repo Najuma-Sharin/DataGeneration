@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f7a8b8, #8fd3f4); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.brand-highlight {
+    color: #6A0572; /* Dark purple accent color */
+}
+
+.navbar {
+    background: linear-gradient(to right, #e0a4b7, #8fd3f4); /* Light pink and light blue gradient for navbar */
+}
+
+.navbar .nav-link {
+    background: linear-gradient(to right, #e0a4b7, #8fd3f4); /* Matching color with navbar background */
+    border: 2px solid #6A0572; /* Dark purple border color */
+    color: white;
+    font-size: large !important;
+    margin: 10px;
+}
+
+.navbar .nav-link:hover {
+    background: linear-gradient(to right, #8fd3f4, #6cb4e4); /* Slightly darker shade on hover */
+    color: #6A0572 !important;
+    transition: background-color 0.5s linear;
+}
+
+h2:hover {
+    color: #E94057; /* Lighter coral accent color */
+}
+
+.btn {
+    background: linear-gradient(to right, #4caf50, #45a049); /* Green gradient */
+    color: #fff;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #45a049, #398741); /* Darker green gradient on hover */
+    color: #fff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    background: linear-gradient(to right, #f7a8b8, #8fd3f4); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: linear-gradient(to right, #e18e9d, #6cb4e4); /* Light pink and light blue gradient for button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #6cb4e4, #4a95d3); /* Slightly darker shade on hover */
+    color: #fff;
+}
